@@ -1,0 +1,34 @@
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+body{}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+nav ul,ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:none}
+a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent;text-decoration:none;}
+ins{background-color:#ff9;color:#000;text-decoration:none}
+mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
+del{text-decoration:line-through}
+abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
+table{border-collapse:collapse;border-spacing:0}
+hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
+input,select{vertical-align:middle}
+.clear{clear:both;}
+input[type="submit"]{cursor:pointer;}
+/*content detail post*/
+
+.mh-content-prod-con{clear:both;overflow:hidden}
+.mh-content-prod-con h1{font-size:30px;line-height:normal}
+.mh-content-prod-con h2{font-size:25px;line-height:normal}
+.mh-content-prod-con h3{font-size:20px;line-height:normal}
+.mh-content-prod-con h4{font-size:17px;line-height:normal}
+.mh-content-prod-con h5{font-size:13px;line-height:normal}
+.mh-content-prod-con h6{font-size:10px;line-height:normal}
+.mh-content-prod-con ul,.mh-content-prod-con ol,.mh-content-prod-con li{list-style-position:inside;list-style-type:inherit}
+.mh-content-prod-con ol{list-style-type:decimal}
+.mh-content-prod-con table,.mh-content-prod-con tr,.mh-content-prod-con th,.mh-content-prod-con td{border:solid 1px #CDCDCD;border-collapse:collapse;padding:5px;vertical-align:middle}
+.mh-content-prod-con a{color:#06C}
+.mh-content-prod-con a:hover{text-decoration:underline}
+.mh-content-prod-con img{height:auto;margin:5px auto;max-width:640px}
+.mh-content-prod-con em,.mh-content-prod-con i{font-style:italic}
+.mh-content-prod-con strong,.mh-content-prod-con b{font-weight:700}
+/*content detail post*/

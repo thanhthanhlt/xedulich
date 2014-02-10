@@ -1,0 +1,18 @@
+-vào application/config/ config.php de cau hinh lai= cach copy duong dan.
+-vào application/config/ config.php chon $config['index_page'] = '';
+-down file .htaccess*phai tao trong Dw* chinh la rewritebase theo ten cua site. trong dau /../ (file nay cung cap voi folder application)
+- vào application/config/routes.php chinh lai dong "$route['default_controller'] = "welcome";" thay welcome = index or site
+-ten cua file php la viet thuong nhung class se viet hoa chu cai dau, ex: index.php --> class Index
+- vao Wampserver->apache-> mo httpd.config-> find "rewrite" de bat ham "LoadModule rewrite_module modules/mod_rewrite.so" sau do save lai va restart all service.
+-chia nho tung phan bo vao view, dat ten theo y muon
+-sua duong dan tuyet doi bang cong thuc <?php echo base_url(); ?>/ duong dan den file
+-vào application/config/ autoload.php chinh lai $autoload['helper'] = array('url');//muc dich de ho tro duong dan file
+-
+*********************************************************************************************
+LOAD DATABASE
+- vào application/config/autoload.php chon $autoload['libraries'] = array('database');
+- vào application/config/database.php chon 
+$db['default']['hostname'] = 'localhost:8080';//ten host
+$db['default']['username'] = 'root';//ten dang nhap phpmyadmin
+$db['default']['password'] = ''; //pass word tai khoan
+$db['default']['database'] = 'xedulich';// ten CSDL
