@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://localhost:82/xedulich/';
+$config['base_url']	= 'http://localhost/xedulich/';
 
 /*
 |--------------------------------------------------------------------------
